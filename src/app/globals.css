@@ -67,11 +67,6 @@ h6 {
   overflow-wrap: break-word;
 }
 
-#root,
-#__next {
-  isolation: isolate;
-}
-
 @keyframes border-transform {
   0%,
   100% {
