@@ -220,4 +220,7 @@ h6 {
       background-position: 200% center;
     }
   }
+  &:hover {
+    cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat923.cur), auto !important;
+  }
 }
