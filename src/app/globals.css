@@ -194,3 +194,30 @@ h6 {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
+
+/* Fancy coloured text */
+.fancy-text {
+  text-align: center;
+  background: linear-gradient(
+    115deg,
+    #2ecd92 20%,
+    #5dd17e 30%,
+    #8bd66a 60%,
+    #5dd17e 70%,
+    #2ecd92 80%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 200% auto;
+  -webkit-text-fill-color: transparent;
+
+  animation: textGradient 3s linear infinite;
+  animation-direction: reverse;
+
+  @keyframes textGradient {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
