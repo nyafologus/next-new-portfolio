@@ -1,5 +1,6 @@
 import Image from "next/image";
 import localFont from "next/font/local";
+import Link from "next/link";
 
 const winkFont = localFont({
   src: "../../../public/wink-script-regular.woff2",
@@ -18,9 +19,11 @@ export default function Hero() {
           ey there,
         </span>{" "}
         this is{" "}
-        <span className={`${winkFont.className} fancy-text pr-2 text-5xl`}>
-          Sophie
-        </span>
+        <a href="https://github.com/nyafologus" target="_blank">
+          <span className={`${winkFont.className} fancy-text pr-2 text-5xl`}>
+            Sophie
+          </span>
+        </a>
         <br />
         <span className="mt-4 inline-block">I am a Frontend Developer</span>
       </h1>
