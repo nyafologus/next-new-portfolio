@@ -224,3 +224,11 @@ h6 {
     cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat923.cur), auto !important;
   }
 }
+
+/* Swooshed font */
+
+.swsh {
+  -moz-font-feature-settings: "swsh"; /* low-level (old Firefox) */
+  -webkit-font-feature-settings: "swsh"; /* low-level (old Webkit) */
+  font-feature-settings: "swsh" on; /* low-level (all new browsers) */
+}
