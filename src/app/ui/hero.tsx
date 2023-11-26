@@ -4,16 +4,16 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="w-full h-screen justify-center items-center overflow-hidden relative font-normal text-gray-300 mb-0 flex py-16 px-0"
+      className="relative mb-0 flex h-screen w-full items-center justify-center overflow-hidden px-0 py-16 font-normal text-gray-300 "
     >
-      <h1 className="text-2xl font-bold text-center">
+      <h1 className="text-center text-2xl font-bold">
         Hey there, this is <span className="fancy-text">Sophie</span>
         <br />
-        <span className="inline-block mt-4">I am a Frontend Developer</span>
+        <span className="mt-4 inline-block">I am a Frontend Developer</span>
       </h1>
 
       <Image
-        className="w-full h-full min-h-screen absolute z-[-1] object-cover"
+        className="absolute z-[-1] h-full min-h-screen w-full object-cover"
         src="/horsegirl-r.jpg"
         width={1500}
         height={1500}
