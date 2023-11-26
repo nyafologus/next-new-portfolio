@@ -22,7 +22,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={monoFont.className}>{children}</body>
+      <body
+        className={`antialiased text-center cursor-default text-base font-normal leading-6 text-gray-800 ${monoFont.className}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

@@ -36,9 +36,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
 }
 
 img,
@@ -191,8 +188,7 @@ h6 {
   fill: none;
 }
 .progress-wrap svg.progress-circle path {
-  stroke: rgba(0, 0, 0, 0.2); /* --- 
-  Line progress color --- */
+  stroke: rgba(0, 0, 0, 0.2); /* ---  Line progress color --- */
   stroke-width: 4;
   box-sizing: border-box;
   -webkit-transition: all 200ms linear;
