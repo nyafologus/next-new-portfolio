@@ -32,9 +32,9 @@ export default function About() {
 
         <div className="about-info py-8">
           <p>
-            I've been working as a contractor for a Perth-based digital agency
-            for the past 2 years in collaboration with their talented team to
-            build beautiful custom designed websites for their clients
+            Working as a contractor for a Perth-based digital agency for the
+            past 2 years in collaboration with their talented team to build
+            beautiful custom designed websites for their clients
           </p>
           <p>✨</p>
           <p>
