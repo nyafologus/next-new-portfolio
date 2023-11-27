@@ -114,6 +114,26 @@ h6 {
   }
 }
 
+/* about page gradient background */
+
+#about {
+  background: linear-gradient(to right, #00c9a7, #bada55);
+  background-size: 200% auto;
+  animation: gradient 12s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 /* #Progress indicator ========================== */
 
 .progress-wrap {
@@ -231,4 +251,10 @@ h6 {
   -moz-font-feature-settings: "swsh"; /* low-level (old Firefox) */
   -webkit-font-feature-settings: "swsh"; /* low-level (old Webkit) */
   font-feature-settings: "swsh" on; /* low-level (all new browsers) */
+}
+
+.ss01 {
+  -moz-font-feature-settings: "ss01"; /* low-level (old Firefox) */
+  -webkit-font-feature-settings: "ss01"; /* low-level (old Webkit) */
+  font-feature-settings: "ss01" on; /* low-level (all new browsers) */
 }
