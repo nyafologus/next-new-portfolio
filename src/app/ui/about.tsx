@@ -30,17 +30,22 @@ export default function About() {
           />
         </div>
 
-        <div className="about-info py-8">
+        <div className="about-info flex flex-col gap-2 py-8 text-lg ">
           <p>
             Working as a contractor for a Perth-based digital agency for the
-            past 2 years in collaboration with their talented team to build
-            beautiful custom designed websites for their clients
+            past couple of years in collaboration with their talented team to
+            build beautiful custom designed websites for their clients
+          </p>
+          <p>✨</p>
+          <p>Confident in the following technologies:</p>
+          <p>
+            HTML5, CSS3, SASS, Flexbox, Grid, JavaScript, React.js, Gatsby.js,
+            GraphQL, and Wordpress CMS
           </p>
           <p>✨</p>
           <p>
-            I am confident in using HTML5, CSS3, SASS, Flexbox, Grid,
-            JavaScript, GraphQL, React.js, Gatsby.js, git version control and
-            Wordpress CMS
+            Recently been working with Next.js 14, TypeScript, Tailwind, and
+            Framer Motion
           </p>
         </div>
       </div>
