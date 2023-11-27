@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import avatar from "@/../../public/avatar.png";
 import localFont from "next/font/local";
 
 const monoItalicFont = localFont({
@@ -13,40 +13,56 @@ export default function About() {
       id="about"
       className="mb-0 h-full border-t-0 bg-gradient-to-r from-teal-500 to-lime-500 p-0 text-white"
     >
-      <div id="container" className="mx-auto w-full px-8 pb-8 pt-32">
+      <div
+        id="container"
+        className=" mx-auto w-full px-10 pb-6 pt-20 md:max-w-6xl md:px-12 md:pb-10 md:pt-32"
+      >
         <h2
-          className={`mb-18 text-4xl font-extrabold italic leading-6 text-white  ${monoItalicFont.className}`}
+          className={`pb-6 text-3xl font-extrabold italic leading-6 text-white md:pb-12 md:text-4xl ${monoItalicFont.className}`}
         >
           Experience
         </h2>
 
-        <div className="flex h-full items-center justify-center py-8">
-          <Image
-            className="left-0 top-0 object-cover object-center"
-            src="/avatar.png"
-            width={250}
-            height={250}
-            alt="About image"
-          />
-        </div>
+        <div className="flex flex-col md:flex-row md:items-center md:text-start">
+          <div className="flex h-full flex-col items-center justify-center py-6 md:flex-1">
+            <Image
+              className="left-0 top-0 hidden object-cover object-center md:block"
+              src={avatar}
+              style={{
+                width: "70%",
+                height: "auto",
+              }}
+              alt="Pixel art of girl"
+            />
+            <Image
+              className="left-0 top-0 block object-cover object-center md:hidden"
+              src={avatar}
+              style={{
+                width: "50%",
+                height: "auto",
+              }}
+              alt="Pixel art of girl"
+            />
+          </div>
 
-        <div className="about-info flex flex-col gap-2 py-8 text-lg ">
-          <p>
-            Working as a contractor for a Perth-based digital agency for the
-            past couple of years in collaboration with their talented team to
-            build beautiful custom designed websites for their clients
-          </p>
-          <p>✨</p>
-          <p>Confident in the following technologies:</p>
-          <p>
-            HTML5, CSS3, SASS, Flexbox, Grid, JavaScript, React.js, Gatsby.js,
-            GraphQL, and Wordpress CMS
-          </p>
-          <p>✨</p>
-          <p>
-            Recently been working with Next.js 14, TypeScript, Tailwind, and
-            Framer Motion
-          </p>
+          <div className="about-info text-md flex flex-col gap-2 py-8 md:flex-1 md:text-lg">
+            <p>
+              Working as a contractor for a Perth-based digital agency for the
+              past couple of years in collaboration with their talented team to
+              build beautiful custom designed websites for their clients
+            </p>
+            <p>✨</p>
+            <p>Confident in the following technologies:</p>
+            <p>
+              HTML5, CSS3, SASS, Flexbox, Grid, JavaScript, React.js, Gatsby.js,
+              GraphQL, and Wordpress CMS
+            </p>
+            <p>✨</p>
+            <p>
+              Recently been working with Next.js 14, TypeScript, Tailwind, and
+              Framer Motion
+            </p>
+          </div>
         </div>
       </div>
 
