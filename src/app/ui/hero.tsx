@@ -21,7 +21,8 @@ export default function Hero() {
         this is{" "}
         <a href="https://github.com/nyafologus" target="_blank">
           <span className={`${winkFont.className} fancy-text pr-2 text-5xl`}>
-            Sophie
+            <span className="ss01">S</span>
+            ophie
           </span>
         </a>
         <br />
