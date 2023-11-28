@@ -332,3 +332,15 @@ h6 {
   display: block;
   z-index: 1;
 }
+
+/* Projects */
+
+.project {
+  text-align: right;
+  &:nth-of-type(2n) {
+    text-align: left;
+  }
+  .cta-btn:nth-of-type(2) {
+    padding-right: 0;
+  }
+}

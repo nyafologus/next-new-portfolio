@@ -1,7 +1,7 @@
 import Image from "next/image";
 import avatar from "@/../../public/avatar.png";
-import localFont from "next/font/local";
 import { aboutData } from "@/app/data/data";
+import localFont from "next/font/local";
 
 const monoItalicFont = localFont({
   src: "../../../public/operator-mono-xlight-italic.woff2",
@@ -66,7 +66,7 @@ export default function About() {
         </div>
       </div>
 
-      <svg viewBox="0 0 1440 319">
+      <svg viewBox="0 0 1440 319" className="mb-n10">
         <path
           fill="#fff"
           fillOpacity="1"
