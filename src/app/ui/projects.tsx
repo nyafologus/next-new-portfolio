@@ -24,11 +24,11 @@ function FancyLink({ url }: FancyLinkProps) {
       rel="noreferrer"
       onMouseLeave={contextState.mouseExitEvent}
       onMouseEnter={contextState.mouseEnterEvent}
-      className="z-1 group relative z-10 p-4 px-6 transition-all duration-300 ease-in-out"
+      className="z-1 group z-10"
     >
       <WavyText text="Visit Live Site" />
 
-      <div className="mt-1 h-2 w-full origin-right scale-x-0 bg-gradient-to-r from-teal-400 to-lime-400 transition duration-500 ease-in-out group-hover:origin-left group-hover:scale-x-100"></div>
+      <div className="mt-1 h-2 w-full origin-left scale-x-0 rounded-full bg-gradient-to-r from-teal-400 to-lime-400 transition duration-500 ease-in-out group-hover:origin-left group-hover:scale-x-100"></div>
     </a>
   );
 }
