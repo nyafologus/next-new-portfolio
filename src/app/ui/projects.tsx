@@ -24,9 +24,9 @@ export default function Projects() {
     >
       <div className="mt-n24 mx-auto mb-32 w-full max-w-screen-xl px-10 pb-6 pt-20 md:mb-60 md:max-w-6xl md:px-12 md:pb-10 md:pt-32">
         <h2
-          className={` mb-16 pb-6 text-[10vmin] font-extrabold leading-6  sm:text-[7vmin] md:mb-32 md:pb-12 md:text-[6vmin] ${winkFont.className}`}
+          className={`mb-16 pb-6 text-[10vmin] font-extrabold leading-6 tracking-wide  sm:text-[7vmin] md:mb-32 md:pb-12 md:text-[6vmin] ${winkFont.className}`}
         >
-          Projects
+          <span className="swsh tracking-tight">P</span>rojects
         </h2>
 
         <div className="mb-0 md:mb-60">

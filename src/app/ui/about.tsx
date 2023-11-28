@@ -33,9 +33,10 @@ export default function About() {
         className="mx-auto w-full px-10 pb-6 pt-20 md:max-w-6xl md:px-12 md:pb-10 md:pt-32"
       >
         <h2
-          className={`py-6 text-[10vmin] font-extrabold leading-6 text-white sm:text-[7vmin] md:py-12 md:text-[6vmin] lg:pb-24 ${winkFont.className}`}
+          className={`py-6 text-[10vmin] font-extrabold leading-6 tracking-wide text-white sm:text-[7vmin] md:py-12 md:text-[6vmin] lg:pb-24 ${winkFont.className}`}
         >
-          Experience
+          <span className="swsh tracking-tight">E</span>
+          xperience
         </h2>
 
         <div className="flex flex-col md:flex-row md:items-center md:text-start">
