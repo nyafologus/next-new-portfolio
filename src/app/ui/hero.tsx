@@ -1,6 +1,7 @@
+"use client";
 import Image from "next/image";
 import localFont from "next/font/local";
-import Link from "next/link";
+import { Link } from "react-scroll";
 
 const winkFont = localFont({
   src: "../../../public/wink-script-regular.woff2",
@@ -11,27 +12,43 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative mb-0 flex h-screen w-full items-center justify-center overflow-hidden px-0 py-16 font-normal text-gray-300 "
+      className="relative mb-0 flex h-[95vh] w-full flex-col items-center justify-center overflow-hidden py-16 font-normal text-gray-300 "
     >
-      <h1 className="text-center text-2xl font-bold">
-        <span className={`${winkFont.className} text-5xl`}>
+      <h1 className="r-text-m md:r-text-s mt-10 text-center font-bold leading-3 drop-shadow-md">
+        <span className={`r-text-l md:r-text-m ${winkFont.className} `}>
           <span className="swsh">H</span>
           ey there,
+          <br className="block md:hidden" />
         </span>{" "}
         this is{" "}
         <a href="https://github.com/nyafologus" target="_blank">
-          <span className={`${winkFont.className} fancy-text pr-2 text-5xl`}>
+          <span
+            className={`${winkFont.className} fancy-text r-text-xl md:r-text-l inline-block py-16 pr-4`}
+          >
             <span className="ss01">S</span>
-            ophie
+            ophie!
           </span>
         </a>
-        <br />
-        <span className="mt-4 inline-block">I am a Frontend Developer</span>
       </h1>
 
+      <Link to="about" smooth duration={800}>
+        <div className="scroll-link">
+          <svg width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+          </svg>
+        </div>
+      </Link>
+
       <Image
-        className="absolute z-[-1] h-full min-h-screen w-full object-cover"
+        className="absolute z-[-1] hidden h-full min-h-screen w-full object-cover md:block"
         src="/horsegirl-r.jpg"
+        width={1500}
+        height={1500}
+        alt="Hero image"
+      />
+      <Image
+        className="absolute z-[-1] block h-full min-h-screen w-full object-cover md:hidden"
+        src="/horsegirl-r-sm.jpg"
         width={1500}
         height={1500}
         alt="Hero image"
