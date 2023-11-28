@@ -260,24 +260,6 @@ h6 {
   font-feature-settings: "ss01" on; /* low-level (all new browsers) */
 }
 
-/* Responsive text for the Hero */
-
-.r-text-s {
-  font-size: 4vmin;
-}
-
-.r-text-m {
-  font-size: 5vmin;
-}
-
-.r-text-l {
-  font-size: 7vmin;
-}
-
-.r-text-xl {
-  font-size: 8vmin;
-}
-
 /* Scroll link in Hero */
 
 .scroll-link {
