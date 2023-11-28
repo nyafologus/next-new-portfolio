@@ -45,16 +45,25 @@ export default function About() {
               className="left-0 top-0 hidden object-cover object-center md:block"
               src={avatar}
               style={{
-                width: "70%",
+                width: "80%",
                 height: "auto",
               }}
               alt="Pixel art of girl"
             />
             <Image
-              className="left-0 top-0 block object-cover object-center md:hidden"
+              className="left-0 top-0 hidden object-cover object-center sm:block md:hidden"
               src={avatar}
               style={{
                 width: "50%",
+                height: "auto",
+              }}
+              alt="Pixel art of girl"
+            />
+            <Image
+              className="left-0 top-0 block object-cover object-center sm:hidden"
+              src={avatar}
+              style={{
+                width: "60%",
                 height: "auto",
               }}
               alt="Pixel art of girl"

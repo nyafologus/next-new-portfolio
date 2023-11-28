@@ -6,7 +6,7 @@ export const aboutData = {
   paragraphThree:
     "HTML5, CSS3, SASS, Flexbox, Grid, JavaScript, React.js, Gatsby.js, GraphQL, and Wordpress CMS",
   paragraphFour:
-    "Recently been working with Next.js 14, TypeScript, Tailwind, and Framer Motion",
+    "Recently been enjoying Next.js 14, TypeScript, Tailwind, and Framer Motion",
   separator: "✨",
   resume:
     "https://drive.google.com/file/d/14Uwm0QkneXl7an-G19utjjUYOaeQWsWY/view?usp=sharing",
