@@ -11,6 +11,11 @@ const monoItalicFont = localFont({
   display: "swap",
 });
 
+const winkFont = localFont({
+  src: "../../../public/wink-script-regular.woff2",
+  display: "swap",
+});
+
 export default function Projects() {
   return (
     <section
@@ -22,7 +27,7 @@ export default function Projects() {
         className="mt-n24 mx-auto mb-32 w-full max-w-screen-xl px-10 pb-6 pt-20 md:mb-60 md:max-w-6xl md:px-12 md:pb-10 md:pt-32"
       >
         <h2
-          className={`mb-16 pb-6 text-3xl font-extrabold italic leading-6 md:mb-32 md:pb-12 md:text-4xl ${monoItalicFont.className}`}
+          className={` mb-16 pb-6 text-[10vmin] font-extrabold leading-6  sm:text-[7vmin] md:mb-32 md:pb-12 md:text-[6vmin] ${winkFont.className}`}
         >
           Projects
         </h2>
@@ -46,8 +51,8 @@ export default function Projects() {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
                         href={url}
+                        className={`cta-btn cta-btn--hero italic ${monoItalicFont.className}`}
                       >
                         Visit Live Site
                       </a>

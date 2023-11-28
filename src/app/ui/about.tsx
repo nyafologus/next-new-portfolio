@@ -8,6 +8,11 @@ const monoItalicFont = localFont({
   display: "swap",
 });
 
+const winkFont = localFont({
+  src: "../../../public/wink-script-regular.woff2",
+  display: "swap",
+});
+
 export default function About() {
   const {
     paragraphOne,
@@ -28,7 +33,7 @@ export default function About() {
         className="mx-auto w-full px-10 pb-6 pt-20 md:max-w-6xl md:px-12 md:pb-10 md:pt-32"
       >
         <h2
-          className={`pb-6 text-3xl font-extrabold italic leading-6 text-white md:pb-12 md:text-4xl ${monoItalicFont.className}`}
+          className={`py-6 text-[10vmin] font-extrabold leading-6 text-white sm:text-[7vmin] md:py-12 md:text-[6vmin] lg:pb-24 ${winkFont.className}`}
         >
           Experience
         </h2>

@@ -14,9 +14,9 @@ export default function Hero() {
       id="hero"
       className="relative mb-0 flex h-[95vh] w-full flex-col items-center justify-center overflow-hidden py-16 font-normal text-gray-300 "
     >
-      <h1 className="mt-10 text-center text-[9vmin] font-bold leading-3 drop-shadow-md sm:text-[6vmin] md:text-[5vmin]">
+      <h1 className="mt-10 text-center text-[9vmin] font-bold leading-3 drop-shadow-md sm:text-[6vmin] md:text-[5vmin] lg:pb-4">
         <span
-          className={`text-[11vmin] sm:text-[7vmin]  md:text-[7vmin] ${winkFont.className} `}
+          className={`text-[11vmin] sm:text-[7vmin] ${winkFont.className} `}
         >
           <span className="swsh">H</span>
           ey there,
@@ -25,7 +25,7 @@ export default function Hero() {
         this is{" "}
         <a href="https://github.com/nyafologus" target="_blank">
           <span
-            className={`${winkFont.className} fancy-text inline-block py-16 pr-4 text-[11vmin] sm:text-[7vmin] md:text-[8vmin]`}
+            className={`${winkFont.className} fancy-text inline-block pb-12 pr-4 pt-16 text-[11vmin] sm:text-[7vmin] md:text-[8vmin]`}
           >
             <span className="ss01">S</span>
             ophie!
