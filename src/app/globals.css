@@ -48,6 +48,10 @@ svg {
   max-width: 100%;
 }
 
+a {
+  z-index: 1;
+}
+
 input,
 button,
 textarea,
