@@ -1,16 +1,13 @@
 // ABOUT
 export const aboutData = {
-  img: "avatar.png",
   paragraphOne:
     "Working as a contractor for a Perth-based digital agency for the past couple of years in collaboration with their talented team to build beautiful custom designed websites for their clients",
-  paragraphTwo: "✨",
-  paragraphThree: "Confident in the following technologies:",
-  paragraphFour: "✨",
-  paragraphFive:
+  paragraphTwo: "Confident in the following technologies:",
+  paragraphThree:
     "HTML5, CSS3, SASS, Flexbox, Grid, JavaScript, React.js, Gatsby.js, GraphQL, and Wordpress CMS",
-  paragraphSix: "✨",
-  paragraphSeven:
+  paragraphFour:
     "Recently been working with Next.js 14, TypeScript, Tailwind, and Framer Motion",
+  separator: "✨",
   resume:
     "https://drive.google.com/file/d/14Uwm0QkneXl7an-G19utjjUYOaeQWsWY/view?usp=sharing",
 };

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import avatar from "@/../../public/avatar.png";
 import localFont from "next/font/local";
+import { aboutData } from "@/app/data/data";
 
 const monoItalicFont = localFont({
   src: "../../../public/operator-mono-xlight-italic.woff2",
@@ -8,6 +9,15 @@ const monoItalicFont = localFont({
 });
 
 export default function About() {
+  const {
+    paragraphOne,
+    paragraphTwo,
+    paragraphThree,
+    paragraphFour,
+    separator,
+    resume,
+  } = aboutData;
+
   return (
     <section
       id="about"
@@ -15,7 +25,7 @@ export default function About() {
     >
       <div
         id="container"
-        className=" mx-auto w-full px-10 pb-6 pt-20 md:max-w-6xl md:px-12 md:pb-10 md:pt-32"
+        className="mx-auto w-full px-10 pb-6 pt-20 md:max-w-6xl md:px-12 md:pb-10 md:pt-32"
       >
         <h2
           className={`pb-6 text-3xl font-extrabold italic leading-6 text-white md:pb-12 md:text-4xl ${monoItalicFont.className}`}
@@ -46,22 +56,12 @@ export default function About() {
           </div>
 
           <div className="about-info text-md flex flex-col gap-2 py-8 md:flex-1 md:text-lg">
-            <p>
-              Working as a contractor for a Perth-based digital agency for the
-              past couple of years in collaboration with their talented team to
-              build beautiful custom designed websites for their clients
-            </p>
-            <p>✨</p>
-            <p>Confident in the following technologies:</p>
-            <p>
-              HTML5, CSS3, SASS, Flexbox, Grid, JavaScript, React.js, Gatsby.js,
-              GraphQL, and Wordpress CMS
-            </p>
-            <p>✨</p>
-            <p>
-              Recently been working with Next.js 14, TypeScript, Tailwind, and
-              Framer Motion
-            </p>
+            <p>{paragraphOne}</p>
+            <p>{separator}</p>
+            <p>{paragraphTwo}</p>
+            <p>{paragraphThree}</p>
+            <p>{separator}</p>
+            <p>{paragraphFour}</p>
           </div>
         </div>
       </div>
