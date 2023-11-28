@@ -22,25 +22,22 @@ export default function Projects() {
       id="projects"
       className="mb-0 h-full border-t-0 bg-white text-gray-800"
     >
-      <div
-        id="container"
-        className="mt-n24 mx-auto mb-32 w-full max-w-screen-xl px-10 pb-6 pt-20 md:mb-60 md:max-w-6xl md:px-12 md:pb-10 md:pt-32"
-      >
+      <div className="mt-n24 mx-auto mb-32 w-full max-w-screen-xl px-10 pb-6 pt-20 md:mb-60 md:max-w-6xl md:px-12 md:pb-10 md:pt-32">
         <h2
           className={` mb-16 pb-6 text-[10vmin] font-extrabold leading-6  sm:text-[7vmin] md:mb-32 md:pb-12 md:text-[6vmin] ${winkFont.className}`}
         >
           Projects
         </h2>
 
-        <div className="project-wrapper mb-0 md:mb-60">
+        <div className="mb-0 md:mb-60">
           {projects.map((project) => {
             const { title, info, info2, url, img, id } = project;
 
             return (
               <section key={id} className="project">
                 <div>
-                  <div className="project-wrapper__text mb-16 md:mb-10">
-                    <h3 className="project-wrapper__text-title mb-7 text-2xl md:text-3xl md:font-bold ">
+                  <div className="mb-16 md:mb-10">
+                    <h3 className="mb-7 text-2xl font-bold md:text-3xl ">
                       {title || "Project Title"}
                     </h3>
                     <div>
@@ -61,16 +58,16 @@ export default function Projects() {
                 </div>
                 {img && (
                   <div>
-                    <div className="project-wrapper__image">
+                    <div>
                       <a
                         href={url}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
-                        <div data-tilt className="thumbnail rounded">
+                        <div>
                           <Image
-                            className="mx-auto my-12 block object-cover object-center md:my-24 "
+                            className="mx-auto my-12 block object-cover object-center transition-all duration-150 ease-in-out hover:drop-shadow-[0_0_1rem_#666] hover:filter md:my-24 "
                             src={`/${img}`}
                             width={1500}
                             height={1500}
