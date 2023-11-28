@@ -1,20 +1,37 @@
+"use client";
+import React from "react";
 import Image from "next/image";
 import { projectsData as projects } from "@/app/data/data";
-import corps from "@/../../public/corps-transparent.png";
-import pilbara from "@/../../public/prm-transparent.png";
-import mms from "@/../../public/mms-transparent.png";
-import rinnorris from "@/../../public/rinnoris-transparent.png";
 import localFont from "next/font/local";
-
-const monoItalicFont = localFont({
-  src: "../../../public/operator-mono-xlight-italic.woff2",
-  display: "swap",
-});
+import MouseContext from "../context/mouse-context";
+import { WavyText } from "@/app/ui/wavyText";
 
 const winkFont = localFont({
   src: "../../../public/wink-script-regular.woff2",
   display: "swap",
 });
+
+interface FancyLinkProps {
+  url: string;
+}
+
+function FancyLink({ url }: FancyLinkProps) {
+  const contextState = React.useContext(MouseContext);
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noreferrer"
+      onMouseLeave={contextState.mouseExitEvent}
+      onMouseEnter={contextState.mouseEnterEvent}
+      className="z-1 group relative z-10 p-4 px-6 transition-all duration-300 ease-in-out"
+    >
+      <WavyText text="Visit Live Site" />
+
+      <div className="mt-1 h-2 w-full origin-right scale-x-0 bg-gradient-to-r from-teal-400 to-lime-400 transition duration-500 ease-in-out group-hover:origin-left group-hover:scale-x-100"></div>
+    </a>
+  );
+}
 
 export default function Projects() {
   return (
@@ -44,15 +61,13 @@ export default function Projects() {
                       {info && <p className="mb-4 md:mb-7">{info}</p>}
                       {info2 && <p className="mb-4 md:mb-7">{info2}</p>}
                     </div>
+
                     {url && (
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href={url}
-                        className={`cta-btn cta-btn--hero italic ${monoItalicFont.className}`}
-                      >
-                        Visit Live Site
-                      </a>
+                      <>
+                        <span className="d-flex inline-block font-bold leading-4 tracking-wider">
+                          <FancyLink url={url} />
+                        </span>
+                      </>
                     )}
                   </div>
                 </div>
