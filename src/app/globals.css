@@ -30,12 +30,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #fff;
   scroll-behavior: smooth;
 }
 
@@ -339,22 +334,11 @@ h6 {
   animation: gradient 12s ease infinite;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 /* Footer */
 
 .fancy-footer-link {
   background-image: linear-gradient(135deg, #00c9a7 0%, #bada55 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat923.cur), auto !important;
@@ -408,4 +392,10 @@ a i.fa-linkedin:hover {
 }
 i.fa-github:hover {
   color: #999;
+}
+
+#fourOhFour {
+  background: linear-gradient(to right, #00c9a7, #bada55);
+  background-size: 200% auto;
+  animation: gradient 6s ease infinite;
 }
