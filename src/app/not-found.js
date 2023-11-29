@@ -6,7 +6,7 @@ export default function NotFound() {
       id="fourOhFour"
       className="animate-gradient m-0 bg-gradient-to-r from-teal-500 to-lime-500 bg-cover bg-no-repeat p-0 text-white "
     >
-      <div className="min-h-screen-35 mx-auto flex h-[60vh] w-full flex-col gap-10 px-8 py-80 pb-20 pt-48 text-center md:max-w-6xl ">
+      <div className="min-h-screen-35 mx-auto flex h-[60vh] w-full flex-col gap-10 px-8 py-80 pb-48 pt-48 text-center md:max-w-6xl ">
         <div role="img" aria-label="emoji" className="text-3xl md:text-5xl">
           👻
         </div>
