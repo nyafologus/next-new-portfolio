@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import localFont from "next/font/local";
 import { Link } from "react-scroll";
+import localFont from "next/font/local";
 
 const winkFont = localFont({
   src: "../../../public/wink-script-regular.woff2",

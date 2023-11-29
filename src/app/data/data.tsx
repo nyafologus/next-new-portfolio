@@ -52,7 +52,7 @@ export const projectsData = [
 export const contactData = {
   cta: "I am always happy to chat about coding projects!",
   btn: "Check out my Github",
-  site: "https://github.com/nyafologus",
+  site: "https://github.com/nyafologus?tab=overview&from=2020-11-28&to=2021-11-28",
 };
 
 // FOOTER
