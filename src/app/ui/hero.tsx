@@ -23,7 +23,10 @@ export default function Hero() {
           <br className="block md:hidden" />
         </span>{" "}
         this is{" "}
-        <a href="https://github.com/nyafologus" target="_blank">
+        <a
+          href="https://github.com/nyafologus?tab=overview&from=2020-11-28&to=2021-11-28"
+          target="_blank"
+        >
           <span
             className={`${winkFont.className} fancy-text inline-block pb-12 pr-4 pt-16 text-[11vmin] sm:text-[7vmin] md:text-[8vmin]`}
           >

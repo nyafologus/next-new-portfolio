@@ -57,7 +57,7 @@ export const contactData = {
 
 // FOOTER
 export const footerData = {
-  networks: [
+  socials: [
     {
       id: crypto.randomUUID(),
       name: "twitter",
@@ -76,7 +76,7 @@ export const footerData = {
     {
       id: crypto.randomUUID(),
       name: "github",
-      url: "https://github.com/nyafologus",
+      url: "https://github.com/nyafologus?tab=overview&from=2020-11-28&to=2021-11-28",
     },
   ],
 };
