@@ -8,6 +8,24 @@ import Contact from "./ui/contact";
 import Footer from "./ui/footer";
 import { MouseProvider } from "@/app/context/mouse-context";
 
+interface DuckConsole {
+  duck: (quack: string, lineLength?: number) => void;
+}
+
+const duckConsole: DuckConsole = {
+  duck: (quack: string, lineLength: number = quack.length / 1.88) => {
+    console.log(
+      `
+      /‾${`‾‾`.repeat(lineLength)}‾
+  🦆 <  ${quack}
+      \\_${`__`.repeat(lineLength)}_
+    `,
+    );
+  },
+};
+
+duckConsole.duck("This isn't an easy time for anyone");
+
 export default function Home() {
   const [isProgressActive, setProgressActive] = React.useState<boolean>(false);
 
