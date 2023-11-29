@@ -330,3 +330,23 @@ h6 {
     padding-right: 0;
   }
 }
+
+/* Contact keyframes */
+
+#contact {
+  background: linear-gradient(to right, #00c9a7, #bada55);
+  background-size: 200% auto;
+  animation: gradient 12s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
