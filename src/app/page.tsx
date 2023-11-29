@@ -5,6 +5,7 @@ import Hero from "@/app/ui/hero";
 import About from "@/app/ui/about";
 import Projects from "./ui/projects";
 import Contact from "./ui/contact";
+import Footer from "./ui/footer";
 import { MouseProvider } from "@/app/context/mouse-context";
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
         <About />
         <Projects />
         <Contact />
+        <Footer />
         <ProgressLoader isProgressActive={isProgressActive} />
       </main>
     </MouseProvider>
