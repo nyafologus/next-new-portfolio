@@ -45,7 +45,7 @@ const Contact = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              className="z-1 relative border-2 border-white p-3  transition-all duration-300  ease-in-out before:absolute before:inset-0 before:bottom-0 before:left-0 before:z-[-1] before:block before:h-full before:w-0 before:bg-white hover:before:w-[100%] before:hover:opacity-20"
+              className="z-1 relative block border-2 border-white p-3  transition-all duration-300  ease-in-out before:absolute before:inset-0 before:bottom-0 before:left-0 before:z-[-1] before:block before:h-full before:w-0 before:bg-white hover:before:w-[100%] before:hover:opacity-20"
               href={site}
             >
               {btn}
