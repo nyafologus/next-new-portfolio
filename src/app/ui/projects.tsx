@@ -82,7 +82,7 @@ export default function Projects() {
                       >
                         <div>
                           <Image
-                            className="mx-auto my-12 block object-cover object-center transition-all duration-150 ease-in-out hover:drop-shadow-[0_0_1rem_#666] hover:filter md:my-24 "
+                            className="mx-auto my-12 block object-cover object-center transition-all duration-150 ease-in-out hover:drop-shadow-[0_0_1rem_#666] hover:filter md:mb-40 md:mt-24"
                             src={`/${img}`}
                             width={1500}
                             height={1500}

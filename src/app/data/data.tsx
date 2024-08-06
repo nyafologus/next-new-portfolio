@@ -9,19 +9,11 @@ export const aboutData = {
     "Recently been enjoying Next.js 14, TypeScript, Tailwind, and Framer Motion",
   separator: "✨",
   resume:
-    "https://drive.google.com/file/d/14Uwm0QkneXl7an-G19utjjUYOaeQWsWY/view?usp=sharing",
+    "https://drive.google.com/file/d/17r1QlmNV3ZBs8YzrQyQgm37X2xUN0MFu/view",
 };
 
 // PROJECTS
 export const projectsData = [
-  {
-    id: crypto.randomUUID(),
-    img: "corps-transparent.png",
-    title: "Corps Group",
-    info: "This is a custom website built for an Australian construction company to help them to refresh their brand identity and showcase their business expertise.",
-    info2: "",
-    url: "https://corps.com.au/",
-  },
   {
     id: crypto.randomUUID(),
     img: "rinnorris-transparent.png",
@@ -29,6 +21,14 @@ export const projectsData = [
     info: "This site features a reputable artist who specializes in print, paint, collage and photography. The aim was to develop a small and user-friendly site to showcase her works, highlight her experience and allow users to become familiar with her background.",
     info2: "",
     url: "https://www.maritenorris.com/",
+  },
+  {
+    id: crypto.randomUUID(),
+    img: "corps-transparent.png",
+    title: "Corps Group",
+    info: "This is a custom website built for an Australian construction company to help them to refresh their brand identity and showcase their business expertise.",
+    info2: "",
+    url: "https://corps.com.au/",
   },
   {
     id: crypto.randomUUID(),
