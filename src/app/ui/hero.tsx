@@ -50,6 +50,7 @@ export default function Hero() {
         width={1500}
         height={1500}
         alt="Hero image"
+        priority={true}
       />
       <Image
         className="absolute z-[-1] block h-full min-h-screen w-full object-cover md:hidden"

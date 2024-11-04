@@ -24,7 +24,7 @@ const duckConsole: DuckConsole = {
   },
 };
 
-duckConsole.duck("This isn't an easy time for anyone");
+duckConsole.duck("Progress pleases the duck");
 
 export default function Home() {
   const [isProgressActive, setProgressActive] = React.useState<boolean>(false);
