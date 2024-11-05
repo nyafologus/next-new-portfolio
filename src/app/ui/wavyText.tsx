@@ -1,5 +1,3 @@
-"use client";
-import { FC } from "react";
 import { motion, Variants, HTMLMotionProps } from "framer-motion";
 
 interface Props extends HTMLMotionProps<"div"> {

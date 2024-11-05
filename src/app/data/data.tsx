@@ -65,6 +65,11 @@ export const footerData = {
     },
     {
       id: crypto.randomUUID(),
+      name: "bluesky",
+      url: "https://bsky.app/profile/szofinauta.bsky.social",
+    },
+    {
+      id: crypto.randomUUID(),
       name: "spotify",
       url: "https://open.spotify.com/user/szofinauta",
     },

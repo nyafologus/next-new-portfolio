@@ -348,7 +348,7 @@ h6 {
 
 @font-face {
   font-family: "FontAwesome";
-  src: url("/fontawesome-webfont.woff2?v=4.7.0") format("woff2");
+  src: url("/fa-brands-400.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -363,6 +363,18 @@ h6 {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.fa-twitter:before {
+  content: "\f099";
+}
+
+.fa-bluesky:before {
+  content: "\e671";
+}
+
+.fa-spotify:before {
+  content: "\f1bc";
+}
+
 .fa-linkedin:before {
   content: "\f0e1";
 }
@@ -371,19 +383,16 @@ h6 {
   content: "\f09b";
 }
 
-.fa-twitter:before {
-  content: "\f099";
-}
-
-.fa-spotify:before {
-  content: "\f1bc";
-}
-
 /* Footer Icon hover colours */
 
 i.fa-twitter:hover {
   color: #00acee;
 }
+
+i.fa-bluesky:hover {
+  color: #1281f6;
+}
+
 i.fa-spotify:hover {
   color: #1ed760;
 }
@@ -398,4 +407,8 @@ i.fa-github:hover {
   background: linear-gradient(to right, #00c9a7, #bada55);
   background-size: 200% auto;
   animation: gradient 6s ease infinite;
+}
+
+.debug {
+  outline: 1px solid plum;
 }

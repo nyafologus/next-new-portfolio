@@ -1,5 +1,4 @@
 import { footerData as footer } from "@/app/data/data";
-import { Link } from "react-scroll";
 
 const Footer = () => {
   const { socials } = footer;
@@ -23,7 +22,11 @@ const Footer = () => {
                   aria-label={name}
                   className="w-16 text-3xl text-white transition-all duration-200 ease-in-out md:w-20 md:text-4xl"
                 >
-                  <i className={`fa fa-${name}  translate-y-2 transform`} />
+                  <i
+                    aria-hidden="true"
+                    className={`fa fa-${name}  translate-y-2 transform`}
+                  />
+                  <span className="fa-sr-only hidden">{`link to ${name} account`}</span>
                 </a>
               );
             })}
