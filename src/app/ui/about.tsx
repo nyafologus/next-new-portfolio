@@ -2,6 +2,7 @@ import Image from "next/image";
 import avatar from "@/../../public/avatar.png";
 import { aboutData } from "@/app/data/data";
 import localFont from "next/font/local";
+import { Link } from "react-scroll";
 
 const monoItalicFont = localFont({
   src: "../../../public/operator-mono-xlight-italic.woff2",
@@ -39,7 +40,7 @@ export default function About() {
           xperience
         </h2>
 
-        <div className="flex flex-col md:flex-row md:items-center md:text-start">
+        <div className="my-10 flex flex-col py-10 md:flex-row md:items-center md:text-start">
           <div className="flex h-full flex-col items-center justify-center py-6 md:flex-1">
             <Image
               className="left-0 top-0 hidden object-cover object-center md:block"
@@ -90,6 +91,21 @@ export default function About() {
               </span>
             )}
           </div>
+        </div>
+
+        <div className="my-10 flex w-full flex-col items-center justify-center md:mb-10 md:mt-24">
+          <Link to="projects" smooth duration={800}>
+            <div className="scroll-link">
+              <svg
+                width="100%"
+                height="100%"
+                viewBox="-1 -1 102 102"
+                className="backdrop-hue-rotate-45 border-2 border-white"
+              >
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+              </svg>
+            </div>
+          </Link>
         </div>
       </div>
 

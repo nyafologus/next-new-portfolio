@@ -4,9 +4,9 @@ export const aboutData = {
     "Working as a contractor for a Perth-based digital agency for the past couple of years in collaboration with their talented team to build beautiful custom designed websites for their clients",
   paragraphTwo: "Confident in the following technologies:",
   paragraphThree:
-    "HTML5, CSS3, SASS, Flexbox, Grid, JavaScript, React.js, Gatsby.js, GraphQL, and Wordpress CMS",
+    "HTML5, CSS3, SASS, Flexbox, Grid, JavaScript, React.js, Gatsby.js, GraphQL, and Wordpress CMS, TypeScript, Tailwind",
   paragraphFour:
-    "Recently been enjoying Next.js 14, TypeScript, Tailwind, and Framer Motion",
+    "Recently been enjoying Next.js 15, and tinkering with canary features of React 19",
   separator: "✨",
   resume:
     "https://drive.google.com/file/d/17r1QlmNV3ZBs8YzrQyQgm37X2xUN0MFu/view",

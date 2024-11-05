@@ -284,11 +284,6 @@ h6 {
 }
 
 .scroll-link svg {
-  position: absolute;
-  width: 42px;
-  height: 42px;
-  top: 2px;
-  left: 2px;
   border-radius: 50%;
   background-color: transparent;
 }

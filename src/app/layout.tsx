@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`cursor-default text-center text-base font-normal leading-6 text-gray-800 antialiased ${monoFont.className}`}
+        className={`text-pretty cursor-default text-center text-base font-normal leading-6 text-gray-800 antialiased ${monoFont.className}`}
       >
         {children}
       </body>

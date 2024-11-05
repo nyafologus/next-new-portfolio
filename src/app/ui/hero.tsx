@@ -37,7 +37,12 @@ export default function Hero() {
 
       <Link to="about" smooth duration={800}>
         <div className="scroll-link">
-          <svg width="100%" height="100%" viewBox="-1 -1 102 102">
+          <svg
+            width="100%"
+            height="100%"
+            viewBox="-1 -1 102 102"
+            className="border-2 border-white"
+          >
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
           </svg>
         </div>
