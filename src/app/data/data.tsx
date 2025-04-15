@@ -9,7 +9,7 @@ export const aboutData = {
     "Recently been enjoying Next.js 15, and tinkering with canary features of React 19",
   separator: "✨",
   resume:
-    "https://drive.google.com/file/d/17r1QlmNV3ZBs8YzrQyQgm37X2xUN0MFu/view",
+    "https://www.canva.com/design/DAGj9cxBRBM/O6AyBCWkj5WyUQ0zDDfLQQ/view?utm_content=DAGj9cxBRBM",
 };
 
 // PROJECTS
