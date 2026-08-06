@@ -20,7 +20,8 @@ export const projectsData = [
     title: "Rin Norris",
     info: "This site features a reputable artist who specializes in print, paint, collage and photography. The aim was to develop a small and user-friendly site to showcase her works, highlight her experience and allow users to become familiar with her background.",
     info2: "",
-    url: "https://www.maritenorris.com/",
+    // url: "https://www.maritenorris.com/",
+    url: "https://web.archive.org/web/20250327233620/https://www.maritenorris.com/",
   },
   {
     id: crypto.randomUUID(),
@@ -28,7 +29,8 @@ export const projectsData = [
     title: "Corps Group",
     info: "This is a custom website built for an Australian construction company to help them to refresh their brand identity and showcase their business expertise.",
     info2: "",
-    url: "https://corps.com.au/",
+    // url: "https://corps.com.au/",
+    url: "https://web.archive.org/web/20250329050236/https://corps.com.au/",
   },
   {
     id: crypto.randomUUID(),
@@ -36,7 +38,8 @@ export const projectsData = [
     title: "Map My Say",
     info: "Map My Say is an interactive, map-based survey tool that makes it easy for the public to provide feedback to inform future planning in their community. This website aims to capture their modern, forward-thinking and friendly new brand identity, and the collaborative nature of their app.",
     info2: "",
-    url: "https://www.mapmysay.com/",
+    // url: "https://www.mapmysay.com/",
+    url: "https://web.archive.org/web/20240523053254/https://www.mapmysay.com/",
   },
   {
     id: crypto.randomUUID(),
