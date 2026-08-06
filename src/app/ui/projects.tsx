@@ -26,7 +26,7 @@ function FancyLink({ url }: FancyLinkProps) {
       onMouseEnter={contextState.mouseEnterEvent}
       className="z-1 group z-10"
     >
-      <WavyText text="Visit Live Site" />
+      <WavyText text="Visit Site" />
 
       <div className="mt-1 h-2 w-full origin-left scale-x-0 rounded-full bg-gradient-to-r from-teal-400 to-lime-400 transition duration-500 ease-in-out group-hover:origin-left group-hover:scale-x-100"></div>
     </a>
