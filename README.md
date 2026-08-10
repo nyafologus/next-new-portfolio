@@ -1,10 +1,11 @@
 
 <img width="150" height="20" alt="2sqdhbpfjjd91" src="https://github.com/user-attachments/assets/c10cc304-8cb0-423c-ad5b-364e8aae04e1" />
-
-
-
+<br> 
+<br> 
 LINK TO LIVE SITE ❯❯❯❯ 🔗 [szoficodes.vercel.app](https://szoficodes.vercel.app/) 
-
+<br> 
+<br> 
+<br> 
 <img width="1197" height="890" alt="szoficodes_preview_1_hero" src="https://github.com/user-attachments/assets/4a594f83-f33a-429e-aa2e-d37e6b915fd3" />
 <img width="1200" height="1269" alt="szoficodes_preview_2_about" src="https://github.com/user-attachments/assets/ac2db791-7013-4dc0-884a-389ec71f8ddf" />
 <img width="1200" height="1234" alt="szoficodes_preview_3_project1" src="https://github.com/user-attachments/assets/932e0a8b-f6e1-4fb6-be0f-29fce21f9c5f" />
